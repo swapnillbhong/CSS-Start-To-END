@@ -21,9 +21,15 @@
         padding: 10px;
       }
       #box4 {
+        float: right;
         border: 3px solid navy;
         /* clear: left; */
         padding: 10px;
+      }
+      .clearfix{
+        content: "";
+        clear: both;
+        display: table;
       }
     </style>
   </head>
@@ -36,7 +42,8 @@
       vero repellat omnis similique.
     </div>
     <div id="box3">div 3</div>
-    <div id="box4">
+    <div id="box4" class="clearfix">
+        <img src="download.jpg" alt="see the picture">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda veniam
       hic, perspiciatis mollitia quibusdam, deserunt architecto fuga debitis
       nisi adipisci, quo quia ad saepe consequatur totam consequuntur aperiam.
